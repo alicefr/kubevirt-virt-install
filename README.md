@@ -1,4 +1,4 @@
-# Build VM images with virt-install in containers
+# Create VM images with virt-install in containers
 This setup creates 2 containers for creating and installing VM disk images withcontainers.
 
 ## Build the images:
