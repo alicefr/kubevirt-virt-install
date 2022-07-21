@@ -1,0 +1,6 @@
+FROM quay.io/kubevirt/virt-launcher:latest 
+
+COPY libvirtd.sh /libvirtd.sh
+RUN chmod +x /libvirtd.sh
+
+ENTRYPOINT ["/libvirtd.sh"] 
